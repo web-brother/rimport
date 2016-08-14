@@ -1,0 +1,268 @@
+/* color palette */
+
+@base: #99423b;
+@base_light: #a3544e;
+@base_dark: #893b35;
+@base_font_color: #000000;
+@secondary_font_color: #5b5b5b;
+@secondary_light_font_color: #e5e5e5;
+@light_font_color: #ffffff;
+@header_font_color: #000000;
+
+@background: #ffffff;
+@secondary_background: #f5f5f5;
+
+/* Fonts */
+
+@font_face: "LatoWeb", sans-serif;
+@font_face_bold: "LatoWebBold", sans-serif;
+@font_face_light: "LatoWebLight", sans-serif;
+
+
+body {
+	background-color: @background;
+	font-family: @font_face !important;
+}
+h1 {
+	color: @header_font_color !important;
+	font-family: @font_face_bold !important;
+}
+
+.container-fluid {
+	&.dark {
+		background: @secondary_background;
+	}
+	&.background-call {
+		> div {
+			background: rgba(0, 0, 0, 0.8);
+		}
+	}
+	&.background-suit {
+		> div {
+			background: rgba(0, 0, 0, 0.8);
+		}
+	}
+}
+
+a.link {
+	color: @base !important;
+}
+
+.strong {
+	font-family: @font_face_bold;
+}
+
+/* header-top */
+
+.header-top {
+	.header-info {
+		color: @secondary_font_color;
+	}
+}
+
+/* Nav Bar */
+
+.navbar {
+	&.main {
+		background-color: @base;
+
+		.navbar-nav > li > a {
+			color: @light_font_color;
+		}
+	}
+}
+
+/* Carousel */
+
+#heroCarousel.carousel {
+
+    .item {
+    	background: rgba(153, 66, 59, 0.4);
+    }
+
+    .carousel-inner {
+    	.carousel-caption {
+    		h1 {
+    			color: @light_font_color !important;
+    			font-family: @font_face_bold;
+    		}
+    		p {
+    			font-family: @font_face_light;
+    		}
+
+    	}
+    }
+
+	ol.carousel-indicators {
+		> li {
+			border: 1px solid @background;
+			&.active {
+				background-color: @base;
+			}
+		}
+	}
+
+	a.carousel-control {
+		> span {
+			color: @base;
+		}
+	}
+}
+
+/* Body Copy */
+
+div.body-copy {
+
+	p {
+		color: @secondary_font_color;
+		font-family: @font_face_light;
+	}
+
+	div.body-copy-header {
+		h4 {
+			font-family: @font_face;
+			color: @secondary_font_color;
+		}
+		h5 {
+			font-family: @font_face_light;
+			color: @secondary_font_color;
+		}
+		&.light {
+			h1, h4, h5 {
+				color: @light_font_color !important;
+			}
+		}
+	}
+
+	div.circle-container {
+		background: @background;
+	}
+
+	div.body-copy-cards {
+		> div {
+			div.card {
+				background: @secondary_background;
+				color: @secondary_font_color;
+
+				i.card-icon {
+					background: @background;
+					color: @base;
+				}
+
+				&.light {
+					background: @background;
+					border-color: @secondary_background !important;
+					i.card-icon {
+						background: @secondary_background;
+					}
+					&:hover {
+						background: @secondary_background;
+						i.card-icon {
+							background: @background;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	span.caption {
+		font-size: 12px;
+		color: @secondary_font_color;
+		font-family: @font_face;
+	}
+
+	div.body-copy-list {
+		ul {
+			li {
+				font-family: @font_face_bold;
+				border-bottom-color: #c6c6c6 !important;
+			}
+		}
+	}
+}
+
+/* Footer */
+
+div.footer {
+	background-color: @base;
+
+	div.footer-body {
+		color: @light_font_color;
+		div.body-card-header {
+			border-bottom-color: @base_light !important;
+			font-family: @font_face_bold;
+		}
+		div.body-card-copy {
+			font-family: @font_face_light;
+			div.info {
+				i {
+					background-color: @background;
+					color: @base;
+				}
+			}
+			div.map {
+				background: @background;
+			}
+		}
+	}
+}
+
+/* Powered By */
+
+div.powered-by {
+	background: @base_dark;
+	div.powered-by-body {
+		color: @light_font_color;
+		font-family: @font_face_light;
+	}
+}
+
+/* Button */
+
+a.btn {
+	&.rimport-btn {
+		&.light {
+			border-color: @background !important;
+			color: @background;
+			font-family: @font_face;
+			&:hover {
+				color: @base;
+				background-color: @background;
+			}
+		}
+		&.dark {
+			color: @base;
+			background-color: @background;
+			border-color: @background;
+			font-family: @font_face;
+			&:hover {
+				border-color: @base;
+				background-color: @base;
+				color: @background;
+			}
+		}
+		&.dark-dominant {
+			color: @background;
+			background-color: @base;
+			border-color: @base;
+			font-family: @font_face;
+		}
+		&.light-dark {
+			color: @base;
+			/*background-color: @background;*/
+			border-color: @base;
+			font-family: @font_face;
+			&:hover {
+				background-color: @base;
+				color: @background;
+			}
+		}
+	}
+}
+
+/* Table */
+
+table {
+	font-family: @font_face_light;
+}

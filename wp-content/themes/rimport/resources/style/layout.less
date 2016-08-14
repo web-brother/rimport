@@ -1,0 +1,36 @@
+@container_max_width: 1024px;
+@container_desktop_padding: 60px 20px;
+@container_mobile_padding: 20px 10px;
+
+.container {
+	max-width: @container_max_width;
+	padding: @container_desktop_padding;
+
+	.centered {
+		text-align: center;
+	}
+	.left-align {
+		text-align: left;
+	}
+	.right-align {
+		text-align: right;
+	}
+
+	@media @max-mobile {
+		padding: @container_mobile_padding;
+	}
+}
+
+div.row {
+	&.equal-height {
+		display: table;
+    	table-layout: fixed;
+    	width: 100%;
+
+    	> div {
+    		display: table-cell;
+    		float: none;
+    		width: 50%;
+    	}
+	}
+}
