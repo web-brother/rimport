@@ -42,14 +42,23 @@ h1 {
 			background: rgba(0, 0, 0, 0.8);
 		}
 	}
+	&.background-tools {
+		> div {
+			background: rgba(0, 0, 0, 0.8);
+		}
+	}
 }
 
 a.link {
 	color: @base !important;
-}
+	font-family: @font_face}
 
 .strong {
 	font-family: @font_face_bold;
+}
+.light {
+	color: @background;
+	font-family: @font_face_light;
 }
 
 /* header-top */
@@ -220,7 +229,7 @@ div.powered-by {
 
 /* Button */
 
-a.btn {
+a.btn, .btn {
 	&.rimport-btn {
 		&.light {
 			border-color: @background !important;
@@ -251,6 +260,7 @@ a.btn {
 		&.light-dark {
 			color: @base;
 			/*background-color: @background;*/
+			background-color: transparent;
 			border-color: @base;
 			font-family: @font_face;
 			&:hover {
@@ -265,4 +275,15 @@ a.btn {
 
 table {
 	font-family: @font_face_light;
+}
+
+/* Form */
+
+form {
+	label {
+		color: @secondary_font_color;
+	}
+	input, textarea {
+		font-family: @font_face_light;
+	}
 }

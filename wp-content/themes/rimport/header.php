@@ -39,8 +39,8 @@
             <ul class="nav navbar-nav">
               <li><a href="<?php echo get_home_url(); ?>/rimport">Home</a></li>
               <li><a href="<?php echo get_home_url(); ?>/about-us">About US</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/services">Services</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></li>
               <li><a href="#">Newsletter</a></li>
             </ul> 
           </div>

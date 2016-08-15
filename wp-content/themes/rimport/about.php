@@ -40,7 +40,7 @@ get_header();
 <div class="container-fluid dark">
 	<div class="container body-copy">
 		<div class="body-copy-header centered">
-			<h1>PRINCIPAL OFFICERS / PRINCIPAL  STOCKHOLDERS AND BOARD OF DIRECTORS:</h1>
+			<h4>PRINCIPAL OFFICERS / PRINCIPAL  STOCKHOLDERS AND BOARD OF DIRECTORS</h4>
 		</div>
 		<div>
 			<table class="table table-striped">
@@ -79,6 +79,15 @@ get_header();
 	</div>
 </div>
 
+<div class="container-fluid background-call">
+	<div>
+		<div class="container body-copy short">
+			<div class="body-copy-header centered light no-margin">	
+			<span class="light align-with-button">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum. </span>&nbsp;<a class="btn rimport-btn light no-margin" href="<?php echo get_home_url(); ?>/contact-us#email">Talk to sales &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+</div>
 
 <?php
 

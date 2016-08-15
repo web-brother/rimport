@@ -31,9 +31,9 @@
 							<span>Sunday:</span> Closed
 						</div>
 						<div class="info">
-							<p>Unit GB G/F Kikusui Condominium, 1656 Penafrancia cor. D. Oliman Sts., Valenzuela, Makati City</p>
+							<p>Unit GB G/F Kiku sui Condominium, 1656 Penafrancia cor. D. Oliman Sts., Valenzuela, Makati City</p>
 						</div>
-						<div class="map">&nbsp;</div>
+						<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1027.6922833765116!2d121.0223282521959!3d14.56943623415935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9af5d1e6ee3%3A0xc59b91a9ba4c1e18!2sKiku+Sui+Star%2C+1656+Pe%C3%B1afrancia%2C+Makati%2C+1208+Metro+Manila!5e0!3m2!1sen!2sph!4v1471230901671" width="100%" height="120" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 					</div>
 				</div>
 			</div>
