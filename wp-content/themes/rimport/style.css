@@ -51,7 +51,7 @@ a.link {
 }
 /* Carousel */
 #heroCarousel.carousel .item {
-  background: rgba(153, 66, 59, 0.4);
+  background: rgba(153, 66, 59, 0.5);
 }
 #heroCarousel.carousel .carousel-inner .carousel-caption h1 {
   color: #ffffff !important;
@@ -205,6 +205,9 @@ form label {
 form input,
 form textarea {
   font-family: "LatoWebLight", sans-serif;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background-color: #893b35 !important;
 }
 .container {
   max-width: 1024px;
@@ -549,6 +552,21 @@ form {
 form input,
 form textarea {
   font-size: 16px !important;
+}
+/* Owl Carousel */
+.owl-carousel.gallery img {
+  border: 1px solid #5b5b5b;
+  max-width: 221px;
+}
+.owl-carousel.gallery .img-thumbnail {
+  width: 221px;
+  height: 148px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  background-position: center center;
+  background-color: transparent;
+  border: none;
 }
 /* General */
 .no-margin-bottom {

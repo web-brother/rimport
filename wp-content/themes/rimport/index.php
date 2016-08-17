@@ -4,28 +4,56 @@
 <div class="carousel slide" id="heroCarousel">				
 	<!-- Indicators -->
 	<ol class="carousel-indicators">
-		<li class="active" data-slide-to="0" data-target="#heroCarousel"></li>
-		<li data-slide-to="1" data-target="#heroCarousel"></li>
+		<li class="active" data-slide-to="1" data-target="#heroCarousel"></li>
 		<li data-slide-to="2" data-target="#heroCarousel"></li>
+		<li data-slide-to="3" data-target="#heroCarousel"></li>
+		<li data-slide-to="4" data-target="#heroCarousel"></li>
+		<li data-slide-to="5" data-target="#heroCarousel"></li>
+		<li data-slide-to="6" data-target="#heroCarousel"></li>
+		<li data-slide-to="7" data-target="#heroCarousel"></li>
 	</ol>
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
-		<div class="item active" id="slide1">
+		<div class="item active" id="slide0">
 			<div class="carousel-caption">
-				<h1>Heading 1</h1>
+				<h1>Studio And Theater Lightings</h1>
+				<p>Supporting Marketing Slogan 1</p>
+			</div>
+		</div>
+		<div class="item" id="slide1">
+			<div class="carousel-caption">
+				<h1>Sound System</h1>
 				<p>Supporting Marketing Slogan 1</p>
 			</div>
 		</div>
 		<div class="item" id="slide2">
 			<div class="carousel-caption">
-				<h1>Heading 2</h1>
+				<h1>TV Broadcast Camera</h1>
 				<p>Supporting Marketing Slogan 1</p>
 			</div>
 		</div>
 		<div class="item" id="slide3">
 			<div class="carousel-caption">
-				<h1>Heading 3</h1>
+				<h1>TV Broadcast Transmitters</h1>
+				<p>Supporting Marketing Slogan 1</p>
+			</div>
+		</div>
+		<div class="item" id="slide4">
+			<div class="carousel-caption">
+				<h1>Surveillance Equipments</h1>
+				<p>Supporting Marketing Slogan 1</p>
+			</div>
+		</div>
+		<div class="item" id="slide5">
+			<div class="carousel-caption">
+				<h1>Solar System</h1>
+				<p>Supporting Marketing Slogan 1</p>
+			</div>
+		</div>
+		<div class="item" id="slide6">
+			<div class="carousel-caption">
+				<h1>Power Generators</h1>
 				<p>Supporting Marketing Slogan 1</p>
 			</div>
 		</div>
@@ -167,6 +195,11 @@
 
 <script type="text/javascript">
   jQuery(function($) {
+
+  $("#heroCarousel").carousel({
+  	interval: 3000,
+  	pause: false
+  });
  
   $("#owl-example").owlCarousel({
   		autoPlay: 2000,

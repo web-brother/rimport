@@ -39,7 +39,21 @@
             <ul class="nav navbar-nav">
               <li><a href="<?php echo get_home_url(); ?>/rimport">Home</a></li>
               <li><a href="<?php echo get_home_url(); ?>/about-us">About US</a></li>
-              <li><a href="<?php echo get_home_url(); ?>/services">Services</a></li>
+              <!-- <li><a href="<?php echo get_home_url(); ?>/services">Services</a></li> -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="<?php echo get_home_url(); ?>/services">Studio And Theater Lightings</a></li>
+                  <li><a href="#">Sound System</a></li>
+                  <li><a href="#">TV Broadcast Camera</a></li>
+                  <li><a href="#">TV Broadcast Transmitters</a></li>
+                  <li><a href="#">Surveillance Equipments</a></li>
+                  <li><a href="#">Solar System</a></li>
+                  <li><a href="#">Power Generators</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="<?php echo get_home_url(); ?>/services">See all</a></li>
+                </ul>
+              </li>
               <li><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></li>
               <li><a href="#">Newsletter</a></li>
             </ul> 

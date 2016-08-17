@@ -12,12 +12,38 @@ get_header();
 	<div>
 		<div class="container body-copy">
 			<div class="body-copy-header centered light no-margin">
-				<h1 class="no-margin-top">Services</h1>
+				<h1 class="no-margin-top">Products and Services</h1>
 				<h5>All services we can offer</h5>
 			</div>
 		</div>
 	</div>
 </div>
+
+<!-- site nav -->
+     <!-- <div class="navbar main navbar-inverse header-navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navHeaderCollapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse navHeaderCollapse">
+            <ul class="nav navbar-nav">
+              <li><a href="<?php echo get_home_url(); ?>/rimport">Home</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/about-us">About US</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/services">Services</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></li>
+              <li><a href="#">Newsletter</a></li>
+            </ul> 
+          </div>
+        </div>
+     </div> -->
+    <!-- /site nav -->
 
 <div class="container body-copy">
 	<div class="body-copy-header centered">
@@ -131,6 +157,31 @@ get_header();
 	</div>
 </div>
 
+<div class="container-fluid dark">
+	<div class="container body-copy">
+		<div class="body-copy-header">
+			<h3 class="no-margin-top">Some of our works</h3>
+			<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum.</h5>
+		</div>
+		<div>
+			<div id="owl-example" class="owl-carousel gallery">
+				<?php
+					$url = get_template_directory_uri();
+					$no_of_images = 23;
+					for ($x = 1; $x < $no_of_images + 1; $x++) {
+					    echo '<div>
+					    		<a href="' . $url . '/resources/images/products/lightings/image' . $x . '.JPG" data-lightbox="roadtrip">
+					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/lightings/image' . $x . '.JPG");">
+					    			</div>
+					    		</a>
+					    	</div>';
+					} 
+				?>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="container-fluid background-call">
 	<div>
 		<div class="container body-copy short">
@@ -140,6 +191,21 @@ get_header();
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+  jQuery(function($) {
+ 
+  $("#owl-example").owlCarousel({
+  		autoPlay: false,
+  		items: 4,
+  		pagination: true,
+  		navigation: true,
+  		rewindNav: false,
+  		lazyLoad: true
+  });
+ 
+});
+</script>
 
 <?php
 
