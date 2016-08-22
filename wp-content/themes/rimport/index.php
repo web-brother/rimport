@@ -76,7 +76,7 @@
 				RIMPORT is anchored  in general trading, repairing and servicing. The promotion and marketing of naval, navigational aids and the stage, theatrical, hotels and TV broadcasting studio dimmers, controls and luminaires.
 			</p>
 			<div class="right-align">
-				<a class="btn rimport-btn light-dark no-margin" href="<?php echo get_home_url(); ?>/about-us">Read the full story</a>
+				<a class="btn rimport-btn light-dark no-margin" href="<?php echo get_home_url(); ?>/about-us">Read the full story &nbsp;<i class="fa fa-book" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
@@ -84,77 +84,104 @@
 
 <div class="container body-copy">
 	<div class="body-copy-header centered">
-		<h4>Here Our</h4>
-		<h1 class="hr">Product Lines</h1>
-		<h5>We've got what you need</h5>
+		<h4>WE ARE</h4>
+		<h1 class="hr">IMPORTERS, SALES AND SERVICE ENGINEERS</h1>
+		<h5>OF THE FOLLOWING:</h5>
 	</div>
 	<div class="row centered body-copy-cards">
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-sliders card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Stage/Theatrical & Architectural Lighting Dimmers</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-sliders card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Stage/Theatrical & Architectural Lighting Dimmers</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-lightbulb-o card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">TV Broadcasting Lighting Lamps and Accessories</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-lightbulb-o card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">TV Broadcasting Lighting Lamps and Accessories</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-volume-up card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Professional Sound Reinforcement Systems/Public Address System</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-volume-up card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Professional Sound Reinforcement Systems/Public Address System</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-film card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Audio Equipment and Camera System and Accessories</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-film card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Audio Equipment and Camera System and Accessories</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-cogs card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Stage Curtains and Motorized Hangers and Flying Mechanisms</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-cogs card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Stage Curtains and Motorized Hangers and Flying Mechanisms</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-television card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Acoustic Treatment/Sound Proofing and Transmitter Antenna System</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-television card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Acoustic Treatment/Sound Proofing and Transmitter Antenna System</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-eye card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Surveillance Equipments</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-eye card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Surveillance Equipments</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-sun-o card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Solar System</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-sun-o card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Solar System</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="card light product">
-				<div><i class="fa fa-bolt card-icon" aria-hidden="true"></i></div>
-				<div class="margin-bottom-10"><h4 class="strong">Power Generators</h4></div>
-				<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<div class="holder">
+				<div class="card-image">&nbsp;</div>
+				<div class="card light product">
+					<!-- <div><i class="fa fa-bolt card-icon" aria-hidden="true"></i></div> -->
+					<div class="margin-bottom-10"><h4 class="strong">Power Generators</h4></div>
+					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 		<div><span class="caption">ALL FOREIGN MANUFACTURERS / SUPPLIERS *</span></div>
 		<div class="col-lg-6 right-align padding-right-left-5">
-			<a class="btn rimport-btn dark-dominant no-margin-bottom" href="<?php echo get_home_url(); ?>/services">See all services</a>
+			<a class="btn rimport-btn dark-dominant no-margin-bottom" href="<?php echo get_home_url(); ?>/services">Go to services</a>
 		</div>
 		<div class="col-lg-6 left-align padding-right-left-5">
 			<a class="btn rimport-btn light-dark no-margin-bottom" href="<?php echo get_home_url(); ?>/services">See all suppliers</a>
@@ -163,7 +190,51 @@
 </div>
 
 <div class="container-fluid dark">
-	<div class="container clients">
+	<div class="container body-copy mid">
+		<div class="row equal-height">
+			<div class="col-lg-6">
+				<div class="circle-container">
+					<div class="body-copy-header centered">
+						<h4>WE ARE</h4>
+						<h1>LOCAL<br>DEALER</h1>
+						<h5>OF THE FOLLOWING</h5>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="row centered body-copy-list">
+					<div class="col-lg-6">
+						<ul>
+							<li>SWITCHES</li>
+							<li>DIODES</li>
+							<li>RECTIFIERS</li>
+							<li>RESISTORS</li>
+							<li>ELECTRICAL &<br>INDUSTRIAL FUSES</li>
+						</ul>
+					</div>
+					<div class="col-lg-6">
+						<ul>
+							<li>RELAYS</li>
+							<li>SCRs</li>
+							<li>I.Cs</li>
+							<li>SDIs</li>
+							<li>COAXIAL CABLES<br>MULTI-CONDUCTORS CABLES</li>
+						</ul>
+					</div>
+				</div>
+				<div class="centered"><a class="btn rimport-btn light-dark no-margin-bottom margin-top-10" href="<?php echo get_home_url(); ?>/contact-us">Order Now &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+	<div class="container clients body-copy">
+		<div class="body-copy-header centered">
+			<h4>HERE ARE SOME OF</h4>
+			<h1 class="hr">OUR CLIENTS</h1>
+			<h5>That trusted us</h5>
+		</div>
 		<div id="owl-example" class="owl-carousel">
 		  <div><img src="<?php bloginfo('template_directory'); ?>/resources/images/clients/abs-cbn.png" alt="Owl Image"></div>
 		  <div><img src="<?php bloginfo('template_directory'); ?>/resources/images/clients/banko-sentral-ng-pilipinas.png" alt="Owl Image"></div>
@@ -203,8 +274,7 @@
  
   $("#owl-example").owlCarousel({
   		autoPlay: 2000,
-  		items: 4,
-  		pagination: false
+  		items: 4
   });
  
 });

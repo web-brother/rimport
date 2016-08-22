@@ -86,7 +86,7 @@ get_header();
 <div class="container-fluid dark">
 	<div class="container short body-copy">
 		<p class="centered no-margin-bottom">
-			<i class="fa fa-phone" aria-hidden="true"></i> 403-4216 / 890-8733 &nbsp;|&nbsp; <i class="fa fa-mobile" aria-hidden="true"></i> 0917-5361564 &nbsp;|&nbsp; <i class="fa fa-envelope" aria-hidden="true"></i> reygi8@yahoo.com
+			<span class="strong">(Call/Text or Email Us)</span>&nbsp; <i class="fa fa-phone" aria-hidden="true"></i> 403-4216 / 890-8733 &nbsp;|&nbsp; <i class="fa fa-mobile" aria-hidden="true"></i> 0917-5361564 &nbsp;|&nbsp; <i class="fa fa-envelope" aria-hidden="true"></i> reygi8@yahoo.com
 		</p>
 	</div>
 </div>

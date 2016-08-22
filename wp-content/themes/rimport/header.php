@@ -43,13 +43,13 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><a href="<?php echo get_home_url(); ?>/services">Studio And Theater Lightings</a></li>
-                  <li><a href="#">Sound System</a></li>
-                  <li><a href="#">TV Broadcast Camera</a></li>
-                  <li><a href="#">TV Broadcast Transmitters</a></li>
-                  <li><a href="#">Surveillance Equipments</a></li>
-                  <li><a href="#">Solar System</a></li>
-                  <li><a href="#">Power Generators</a></li>
+                  <li><a href="<?php echo get_home_url(); ?>/services"><i class="fa fa-lightbulb-o card-icon left-17" aria-hidden="true"></i>&nbsp; Studio & Theater Lightings</a></li>
+                  <li><a href="#"><i class="fa fa-volume-up card-icon" aria-hidden="true"></i>&nbsp; Sound System</a></li>
+                  <li><a href="#"><i class="fa fa-film card-icon" aria-hidden="true"></i>&nbsp; TV Broadcast Camera & Audio Equipments</a></li>
+                  <li><a href="#"><i class="fa fa-television card-icon" aria-hidden="true"></i>&nbsp; TV Broadcast Transmitters</a></li>
+                  <li><a href="#"><i class="fa fa-eye card-icon" aria-hidden="true"></i>&nbsp; Surveillance Equipments</a></li>
+                  <li><a href="#"><i class="fa fa-sun-o card-icon" aria-hidden="true"></i>&nbsp; Solar System</a></li>
+                  <li><a href="#"><i class="fa fa-bolt card-icon left-19" aria-hidden="true"></i>&nbsp; Power Generators</a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="<?php echo get_home_url(); ?>/services">See all</a></li>
                 </ul>
