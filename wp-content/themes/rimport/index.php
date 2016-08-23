@@ -85,7 +85,7 @@
 <div class="container body-copy">
 	<div class="body-copy-header centered">
 		<h4>WE ARE</h4>
-		<h1 class="hr">IMPORTERS, SALES AND SERVICE ENGINEERS</h1>
+		<a name="allServices" class="isHeader"><h1 class="hr">IMPORTERS, SALES AND SERVICE ENGINEERS</h1></a>
 		<h5>OF THE FOLLOWING:</h5>
 	</div>
 	<div class="row centered body-copy-cards">
@@ -93,7 +93,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-sliders card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-sliders card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Stage/Theatrical & Architectural Lighting Dimmers</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -103,7 +103,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-lightbulb-o card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-lightbulb-o card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">TV Broadcasting Lighting Lamps and Accessories</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -113,7 +113,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-volume-up card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-volume-up card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Professional Sound Reinforcement Systems/Public Address System</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -123,7 +123,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-film card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-film card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Audio Equipment and Camera System and Accessories</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -133,7 +133,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-cogs card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-cogs card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Stage Curtains and Motorized Hangers and Flying Mechanisms</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -143,7 +143,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-television card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-television card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Acoustic Treatment/Sound Proofing and Transmitter Antenna System</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -153,7 +153,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-eye card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-eye card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Surveillance Equipments</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -163,7 +163,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-sun-o card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-sun-o card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Solar System</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -173,7 +173,7 @@
 			<div class="holder">
 				<div class="card-image">&nbsp;</div>
 				<div class="card light product">
-					<!-- <div><i class="fa fa-bolt card-icon" aria-hidden="true"></i></div> -->
+					<div><i class="fa fa-bolt card-icon" aria-hidden="true"></i></div>
 					<div class="margin-bottom-10"><h4 class="strong">Power Generators</h4></div>
 					<a href="#" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
@@ -222,7 +222,9 @@
 						</ul>
 					</div>
 				</div>
-				<div class="centered"><a class="btn rimport-btn light-dark no-margin-bottom margin-top-10" href="<?php echo get_home_url(); ?>/contact-us">Order Now &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i></a></div>
+				<div class="centered">
+					<a class="btn rimport-btn light-dark no-margin-bottom margin-top-10" href="<?php echo get_home_url(); ?>/contact-us">Order Now &nbsp;<i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+				</div>
 			</div>
 		</div>
 	</div>

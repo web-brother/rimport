@@ -9,16 +9,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Page Title</a>
           </div>
 
           <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav">
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Newsletter</a></li>
-              <li><a href="#">Newsletter</a></li>
+              <li><a href="#">Lighting Systems</a></li>
+              <li><a href="#">Sound Systems</a></li>
+              <li><a href="#">Camera & Audio</a></li>
+              <li><a href="#">Broadcast Transmitters</a></li>
+              <li><a href="#">Solar Sytem</a></li>
+              <li><a href="#">Power Generators</a></li>
             </ul> 
           </div>
         </div>

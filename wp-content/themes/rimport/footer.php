@@ -1,3 +1,4 @@
+<?php include('scrollup.php'); ?>
 
 <div class="container-fluid footer">
 	<div class="container footer-body">
@@ -47,7 +48,7 @@
 							<i class="fa fa-phone" aria-hidden="true"></i> 403-4216 / 890-8733
 						</div>
 						<div class="info">
-							<i class="fa fa-mobile" aria-hidden="true"></i> 0917-5361564
+							<i class="fa fa-mobile" aria-hidden="true"></i> 0917-536-1564
 						</div>
 						<div class="info">
 							<i class="fa fa-envelope" aria-hidden="true"></i> reygi8@yahoo.com

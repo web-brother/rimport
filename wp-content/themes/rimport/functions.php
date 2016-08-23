@@ -20,6 +20,8 @@ function js_files() {
 	wp_enqueue_script('parallax_js', get_template_directory_uri() . '/vendors/parallax.min.js', array('jquery'), '', true);
 	wp_enqueue_script('owl_carousel_js', get_template_directory_uri() . '/vendors/owl-carousel/owl.carousel.js', array('jquery'), '', true);
 	wp_enqueue_script('light_js', get_template_directory_uri() . '/vendors/lightbox2-master/src/js/lightbox.js', array('jquery'), '', true);
+	wp_enqueue_script('smooth_scroll_js', get_template_directory_uri() . '/vendors/smooth-scroll.js', array('jquery'), '', true);
+	wp_enqueue_script('scroll_up_js', get_template_directory_uri() . '/vendors/illbeback.min.js', array('jquery'), '', true);
 }
 
 add_action('wp_enqueue_scripts','js_files');
