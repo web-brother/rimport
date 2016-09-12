@@ -15,12 +15,12 @@ get_header();
 <div class="container body-copy">
 	<div class="body-copy-header centered">
 		<h1 class="hr">Contact Us</h1>
-		<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+		<h5>Any upcoming project right around the corner? We are here to help!</h5>
 	</div>
 	<div class="row">
         <div class="col-lg-12">
 
-            <form id="contact-form" method="post" action="contact.php" role="form">
+            <form id="contact-form" method="post" action="" role="form">
 
                 <div class="messages"></div>
 
@@ -91,15 +91,17 @@ get_header();
 	</div>
 </div>
 
-<div class="container-fluid background-tools short">
+<div class="container-fluid background-tools short contact">
 	<div>
 		<div class="container body-copy short">
 			<div class="body-copy-header centered light no-margin">	
-			<span class="light align-with-button">You might want to go back and review our products and services again. </span>&nbsp;<a class="btn rimport-btn light no-margin" href="<?php echo get_home_url(); ?>/services">Review Now &nbsp; <i class="fa fa-history" aria-hidden="true"></i></a>
+			<span class="light align-with-button">You might want to go back and review our products and services again. <text class="visible-xs"><br></text></span>&nbsp;<a class="btn rimport-btn light no-margin" href="<?php echo get_home_url(); ?>/lighting-systems">Review Now &nbsp; <i class="fa fa-history" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
 </div>
+
+<?php include('vendors/contact-form/contact.php'); ?>
 
 <?php
 

@@ -4,7 +4,7 @@
 	<div class="container footer-body">
 		<div class="row">
 			<div class="col-lg-4">
-				<div class="footer-body-card">
+				<div class="footer-body-card margin-bottom-20-mobile">
 					<div class="body-card-header">
 						<h5>About Us</h5>
 					</div>
@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				<div class="footer-body-card">
+				<div class="footer-body-card margin-bottom-20-mobile">
 					<div class="body-card-header">
 						<h5>Visit Us</h5>
 					</div>
@@ -53,9 +53,10 @@
 						<div class="info">
 							<i class="fa fa-envelope" aria-hidden="true"></i> reygi8@yahoo.com
 						</div>
-						<div class="info">
+						<!-- <div class="info">
 							<i class="fa fa-facebook" aria-hidden="true"></i> facebook.com/rimport
-						</div>
+						</div> -->
+						<div class="centered margin-top-20"><a class="btn rimport-btn light" href="<?php echo get_home_url(); ?>/contact-us">Send us quick message</a></div>
 					</div>
 				</div>
 			</div>

@@ -13,12 +13,13 @@
 
           <div class="collapse navbar-collapse navHeaderCollapse">
             <ul class="nav navbar-nav">
-              <li><a href="#">Lighting Systems</a></li>
-              <li><a href="#">Sound Systems</a></li>
-              <li><a href="#">Camera & Audio</a></li>
-              <li><a href="#">Broadcast Transmitters</a></li>
-              <li><a href="#">Solar Sytem</a></li>
-              <li><a href="#">Power Generators</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/lighting-systems">Lighting Systems</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/sound-systems">Sound Systems</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/audio-camera-equipments">Audio & Camera</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/tv-broadcast-transmitters">Broadcast Transmitters</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/surveillance-equipments">Surveillance Equipments</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/solar-system">Solar Sytem</a></li>
+              <li><a href="<?php echo get_home_url(); ?>/power-generators">Power Generators</a></li>
             </ul> 
           </div>
         </div>

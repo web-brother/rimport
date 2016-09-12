@@ -89,7 +89,7 @@ get_header();
 	<div>
 		<div class="container body-copy short">
 			<div class="body-copy-header centered light no-margin">	
-			<span class="light align-with-button">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum. </span>&nbsp;<a class="btn rimport-btn light no-margin" href="<?php echo get_home_url(); ?>/contact-us#email">Talk to sales &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+			<span class="light align-with-button">Any upcoming project right around the corner? We are here to help! </span>&nbsp;<a class="btn rimport-btn light no-margin margin-top-20-mobile" href="<?php echo get_home_url(); ?>/contact-us#email">Talk to sales &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>
