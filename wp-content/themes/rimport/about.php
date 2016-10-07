@@ -19,7 +19,13 @@ get_header();
 	</div>
 </div>
 
-<div class="container body-copy">
+<div class="container body-copy short">
+	<div class="right-align">
+		<a href="#boardOfDirectors" class="link">See board of directors below</a>
+	</div>
+</div>
+
+<div class="container body-copy short no-padding-top">
 	<div>
 		<p class="opening">RIMPORT INDUSTRIES, INC., was organized on February 15, 1990 primarily to cater to a lucrative and popular business in Video Cassette tapes rental. However, its business adventure did not last long in the rental business. It was short-lived.</p>
 		<p>There was a Raytheon Marine Company which was around selling Naval Radars to the Phil. Navy. It had a problem getting into the Philippine Navy, the only market for Raytheon’s large naval radars, navaids, and radio communication equipments.</p>
@@ -40,7 +46,7 @@ get_header();
 <div class="container-fluid dark">
 	<div class="container body-copy">
 		<div class="body-copy-header centered">
-			<h4>PRINCIPAL OFFICERS / PRINCIPAL  STOCKHOLDERS AND BOARD OF DIRECTORS</h4>
+			<a name="boardOfDirectors" class="isHeader"><h4><i class="fa fa-users" aria-hidden="true"></i> PRINCIPAL OFFICERS / PRINCIPAL  STOCKHOLDERS AND BOARD OF DIRECTORS</h4></a>
 		</div>
 		<div>
 			<table class="table table-striped">
@@ -58,7 +64,7 @@ get_header();
 			    		<td>Corporate Secretary</td>
 			    	</tr>
 			    	<tr>
-			    		<td>LORLYN I. SIA</td>
+			    		<td>LORLYN A. SIA</td>
 			    		<td>Corporate Treasurer</td>
 			    	</tr>
 			    	<tr>
@@ -79,11 +85,11 @@ get_header();
 	</div>
 </div>
 
-<div class="container-fluid background-call">
+<div class="container-fluid background-call mid">
 	<div>
 		<div class="container body-copy short">
 			<div class="body-copy-header centered light no-margin">	
-			<span class="light align-with-button">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur interdum. </span>&nbsp;<a class="btn rimport-btn light no-margin" href="<?php echo get_home_url(); ?>/contact-us#email">Talk to sales &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+			<span class="light align-with-button">Any upcoming project right around the corner? We are here to help! </span>&nbsp;<a class="btn rimport-btn light no-margin margin-top-20-mobile" href="<?php echo get_home_url(); ?>/contact-us#email">Talk to sales &nbsp; <i class="fa fa-envelope-o" aria-hidden="true"></i></a>
 			</div>
 		</div>
 	</div>

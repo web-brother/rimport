@@ -79,6 +79,27 @@ a.link {
 			color: @light_font_color;
 		}
 	}
+	&.sub {
+		background-color: #333333;
+
+		.navbar-nav > li > a {
+			color: @light_font_color;
+		}
+	}
+	/*&.stick {
+		background-color: @background;
+
+		.navbar-nav > li > a {
+			color: @base;
+			&:hover {
+				color: @base_dark;
+			}
+		}
+
+		.is_active {
+			color: @background !important;
+		}
+	}*/
 }
 
 /* Carousel */
@@ -154,7 +175,7 @@ div.body-copy {
 				color: @secondary_font_color;
 
 				i.card-icon {
-					background: @background;
+					/*background: @background;*/
 					color: @base;
 				}
 
@@ -162,13 +183,13 @@ div.body-copy {
 					background: @background;
 					border-color: @secondary_background !important;
 					i.card-icon {
-						background: @secondary_background;
+						background: @background;
 					}
 					&:hover {
-						background: @secondary_background;
+						/*background: @secondary_background;
 						i.card-icon {
 							background: @background;
-						}
+						}*/
 					}
 				}
 			}
@@ -288,6 +309,14 @@ form {
 	}
 }
 
-.navbar-inverse .navbar-nav > .open > a {
+/*.navbar-inverse .navbar-nav > .open > a {
 	background-color: @base_dark !important;
+}*/
+
+.panel {
+	border-color: @base !important;
+	.panel-heading {
+		background-color: @base !important;
+		border-color: @base !important;
+	}	
 }
