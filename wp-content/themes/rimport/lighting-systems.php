@@ -122,8 +122,8 @@ get_header();
     					$no_of_images = 61;
     					for ($x = 1; $x < $no_of_images + 1; $x++) {
     					    echo '<div>
-    					    		<a href="' . $url . '/resources/images/products/lightings/image' . $x . '.JPG" data-lightbox="roadtrip">
-    					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/lightings/image' . $x . '.JPG");">
+    					    		<a href="' . $url . '/resources/images/products/lightings/image' . $x . '.jpg" data-lightbox="roadtrip">
+    					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/lightings/image' . $x . '.jpg");">
     					    			</div>
     					    		</a>
     					    	</div>';
@@ -147,7 +147,22 @@ get_header();
   		pagination: true,
   		navigation: true,
   		rewindNav: false,
-  		lazyLoad: true
+      autoHeight: false,
+      responsiveClass:true,
+      responsive:{
+          400:{
+              items:1,
+              nav:false
+          },
+          600:{
+              items:2,
+              nav:false
+          },
+          900:{
+              items:3,
+              nav:false
+          }
+      }
   });
  
 });

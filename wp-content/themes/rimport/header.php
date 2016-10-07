@@ -5,6 +5,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<title><?php if(is_home()) { echo "Rimport Industries"; } else { echo wp_title(''); } ?></title>
 		<?php wp_head(); ?>
+    <link rel="icon" 
+      type="image/png" 
+      href="<?php bloginfo('template_directory'); ?>/resources/images/company-logo-short.png">
+    <meta name="description" content="RINDUSTRIES, INC., was organized on February 15, 1990 primarily to cater to a lucrative and popular business in Video Cassette tapes rental. In 1991, RIMPORT had successfully pursued the supply and Installation of Radar Simulator System at the Naval Training Command at PN Cavite, Philippines. In 1992, RIMPORT pursued the Retrofitting or Refurbishment of eight (8) Naval Patrol Escort Crafts radars.">
+    <meta name="keywords" content="Studio and Theater Lightings, Sound System, Sound Proofing, Camera, Audio, TV, Broadcast Transmitters, Stage Curtains, Seats, Surveillance, UPS, Power Generator, Solar">
+    <meta name="author" content="Webrother">
 	</head>
 	<body <?php body_class(); ?>>
 

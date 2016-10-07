@@ -12,7 +12,7 @@ get_header();
 	<div>
 		<div class="container body-copy">
 			<div class="body-copy-header centered light no-margin">
-				<h1 class="no-margin-top">Professional Sound Reinforcement Systems/Public Address System</h1>
+				<h1 class="no-margin-top">Professional Sound System & Proofing</h1>
 			</div>
 		</div>
 	</div>
@@ -29,13 +29,14 @@ get_header();
       <div>
         <h4>Description</h4>
         <p>A sound reinforcement system is the combination of microphones, signal processors, amplifiers, and loudspeakers that makes live or pre-recorded sounds louder and may also distribute those sounds to a larger or more distant audience. In some situations, a sound reinforcement system is also used to enhance or alter the sound of the sources on the stage, typically by using electronic effects, as opposed to simply amplifying the sources unaltered.</p>
+        <p>Soundproofing is any means of reducing the sound pressure with respect to a specified sound source and receptor. There are several basic approaches to reducing sound: increasing the distance between source and receiver, using noise barriers to reflect or absorb the energy of the sound waves, using damping structures such as sound baffles, or using active antinoise sound generators.</p>
         <div class="panel panel-primary">
           <div class="panel-heading">Documents (References)</div>
           <div class="panel-body">
           	<ul>
             		<li><a href="<?php bloginfo('template_directory'); ?>/resources/docs/sound-system/beacon flyer1.pdf" target="_blank">beacon flyer1.pdf</a></li>
             		<li><a href="<?php bloginfo('template_directory'); ?>/resources/docs/sound-system/light speaker.jpg" target="_blank">light speaker.jpg</a></li>
-                <li><a href="<?php bloginfo('template_directory'); ?>/resources/docs/sound-system/acoustic_panel_board.jpg" target="_blank">Acoustic Panel Board.jpg</a></li>
+                <li><a href="<?php bloginfo('template_directory'); ?>/resources/docs/sound-system/acoustic_panel_board.jpg" target="_blank">Acoustic Panel Board for sound proofing</a></li>
             	</ul>
           </div>
         </div>

@@ -64,7 +64,7 @@ get_header();
 			    		<td>Corporate Secretary</td>
 			    	</tr>
 			    	<tr>
-			    		<td>LORLYN I. SIA</td>
+			    		<td>LORLYN A. SIA</td>
 			    		<td>Corporate Treasurer</td>
 			    	</tr>
 			    	<tr>

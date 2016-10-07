@@ -12,7 +12,7 @@ get_header();
 	<div>
 		<div class="container body-copy">
 			<div class="body-copy-header centered light no-margin">
-				<h1 class="no-margin-top">Acoustic Treatment/Sound Proofing and Transmitter Antenna System</h1>
+				<h1 class="no-margin-top">Transmitter Antenna System</h1>
 			</div>
 		</div>
 	</div>
@@ -60,6 +60,15 @@ get_header();
               </div>
             </div>
           </div>
+          <div class="col-lg-4 col-sm-6 centered">
+            <div class="supplier">
+              <div class="logo"><img src="<?php bloginfo('template_directory'); ?>/resources/images/suppliers/hitachi.png"/></div>
+              <div class="company-name">HITACHI</div>
+              <div class="address">
+                 Chiyoda, Tokyo, Tokyo, Japan
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div>
@@ -69,7 +78,7 @@ get_header();
       			<div id="owl-example" class="owl-carousel gallery">
       				<?php
       					$url = get_template_directory_uri();
-      					$no_of_images = 2;
+      					$no_of_images = 8;
       					for ($x = 1; $x < $no_of_images + 1; $x++) {
       					    echo '<div>
       					    		<a href="' . $url . '/resources/images/products/broadcast-transmitters/image' . $x . '.jpeg" data-lightbox="roadtrip">

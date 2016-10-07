@@ -12,7 +12,7 @@ get_header();
 	<div>
 		<div class="container body-copy">
 			<div class="body-copy-header centered light no-margin">
-				<h1 class="no-margin-top">Stage Curtains and Motorized Hangers and Flying Mechanisms</h1>
+				<h1 class="no-margin-top">Stage Curtains & Seats</h1>
 			</div>
 		</div>
 	</div>
@@ -36,9 +36,20 @@ get_header();
           </div>
         </div> -->
       </div>
-      <!-- <div>
+      <div>
         <h4>Featured Suppliers</h4>
-      </div> -->
+        <div class="row suppliers">
+          <div class="col-lg-4 col-sm-6 centered">
+            <div class="supplier">
+              <div class="logo"><img src="<?php bloginfo('template_directory'); ?>/resources/images/suppliers/showtex.png"/></div>
+              <div class="company-name">ShowTex Hong Kong Limited</div>
+              <div class="address">
+                Hong Kong
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div>
         <div>
           <h4>Preview of our works</h4>
@@ -49,8 +60,8 @@ get_header();
       					$no_of_images = 11;
       					for ($x = 1; $x < $no_of_images + 1; $x++) {
       					    echo '<div>
-      					    		<a href="' . $url . '/resources/images/products/stage-curtains/image' . $x . '.JPG" data-lightbox="roadtrip">
-      					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/stage-curtains/image' . $x . '.JPG");">
+      					    		<a href="' . $url . '/resources/images/products/stage-curtains/image' . $x . '.jpg" data-lightbox="roadtrip">
+      					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/stage-curtains/image' . $x . '.jpg");">
       					    			</div>
       					    		</a>
       					    	</div>';

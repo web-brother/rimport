@@ -408,7 +408,7 @@ div.row.equal-height > div {
 }
 .container-fluid.background-suit {
   padding: 0;
-  background: url('resources/images/suit.jpeg');
+  background: url('resources/images/suit.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -431,7 +431,7 @@ div.row.equal-height > div {
   background-position: top;
 }
 .container-fluid.background-tools.broadcast-lightings {
-  background-image: url('resources/images/banners/broadcast-lightings.JPG');
+  background-image: url('resources/images/banners/broadcast-lightings.jpg');
 }
 .container-fluid.background-tools.broadcast {
   background-image: url('resources/images/banners/broadcast.jpg');
@@ -712,7 +712,7 @@ div.body-copy div.body-copy-cards > div div.card-image.lightings {
   background-image: url('resources/images/banners/lightings.jpg');
 }
 div.body-copy div.body-copy-cards > div div.card-image.broadcast-lightings {
-  background-image: url('resources/images/banners/broadcast-lightings.JPG');
+  background-image: url('resources/images/banners/broadcast-lightings.jpg');
 }
 div.body-copy div.body-copy-cards > div div.card-image.broadcast {
   background-image: url('resources/images/banners/broadcast.jpg');

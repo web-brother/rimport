@@ -69,8 +69,8 @@ get_header();
     					$no_of_images = 7;
     					for ($x = 1; $x < $no_of_images + 1; $x++) {
     					    echo '<div>
-    					    		<a href="' . $url . '/resources/images/products/camera-audio/image' . $x . '.JPG" data-lightbox="roadtrip">
-    					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/camera-audio/image' . $x . '.JPG");">
+    					    		<a href="' . $url . '/resources/images/products/camera-audio/image' . $x . '.jpg" data-lightbox="roadtrip">
+    					    			<div class="img-thumbnail" style="background-image: url(' . $url . '/resources/images/products/camera-audio/image' . $x . '.jpg");">
     					    			</div>
     					    		</a>
     					    	</div>';

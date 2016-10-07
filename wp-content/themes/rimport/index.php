@@ -19,49 +19,41 @@
 		<div class="item active" id="slide0">
 			<div class="carousel-caption">
 				<h1>Studio & Theater Lightings</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide1">
 			<div class="carousel-caption">
 				<h1>Sound System/Proofing</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide2">
 			<div class="carousel-caption">
 				<h1>TV Broadcast Camera</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide3">
 			<div class="carousel-caption">
 				<h1>TV Broadcast Transmitters</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide4">
 			<div class="carousel-caption">
 				<h1>Surveillance Equipments</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide5">
 			<div class="carousel-caption">
 				<h1>Solar System</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide6">
 			<div class="carousel-caption">
 				<h1>Power Generators & UPS</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 		<div class="item" id="slide7">
 			<div class="carousel-caption">
 				<h1>Stage Curtains & Seats</h1>
-				<!-- <p>Supporting Marketing Slogan 1</p> -->
 			</div>
 		</div>
 	</div>
@@ -131,7 +123,7 @@
 				<div class="card-image broadcast">&nbsp;</div>
 				<div class="card light product">
 					<div><i class="fa fa-film card-icon" aria-hidden="true"></i></div>
-					<div class="margin-bottom-10"><h4 class="strong">Audio Equipment & Camera System and Accessories</h4></div>
+					<div class="margin-bottom-10"><h4 class="strong">Audio & Camera System and Accessories</h4></div>
 					<a href="<?php echo get_home_url(); ?>/audio-camera-equipments" class="link">Learn more &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 				</div>
 			</div>
@@ -289,7 +281,7 @@
 		<div class="container body-copy">
 			<div class="body-copy-header centered light no-margin">
 				<h1 class="no-margin-top">Let's get your project started</h1>
-				<h5>Please, feel free to contact us now! Let's start working together.</h5>
+				<h5>Please, feel free to contact us. Let's start working together.</h5>
 				<a class="btn rimport-btn dark no-margin-bottom" href="<?php echo get_home_url(); ?>/contact-us#email">Let's talk about business</a>
 			</div>
 		</div>
@@ -299,10 +291,18 @@
 <script type="text/javascript">
   jQuery(function($) {
 
-  $("#heroCarousel").carousel({
-  	interval: 3000,
-  	pause: false
-  });
+	$("#heroCarousel").carousel({
+		interval: 3000,
+		pause: false
+	});
+
+	$('.carousel-control.left').click(function() {
+		$('#heroCarousel').carousel('prev');
+	});
+
+	$('.carousel-control.right').click(function() {
+		$('#heroCarousel').carousel('next');
+	});
  
   $("#owl-example").owlCarousel({
   		autoPlay: 2000,
@@ -323,9 +323,7 @@
 	        }
 	    }
   });
- 
 });
 </script>
-
 
 <?php get_footer() ?>
